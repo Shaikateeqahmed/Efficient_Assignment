@@ -10,6 +10,8 @@ function ClearForm(){
     form.reset();
 }
 
+let Backend_url = "https://dark-jade-gosling-hem.cyclic.app/"
+
 //here we are adding a submit eventlistener to form;
 form.addEventListener("submit",submitfun);
 async function submitfun(e){
@@ -39,7 +41,7 @@ async function submitfun(e){
     console.log(obj);
    
     //here we are sending the data to backend;
-    let res = await fetch("http://localhost:3000/data",{
+    let res = await fetch(`${Backend_url}/data`,{
         method:"POST",
         body : JSON.stringify(obj),
         headers:{
