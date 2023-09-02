@@ -18,7 +18,7 @@
   ## How to use it
    - it is fully deployed (that is frontend as well as backend is deployed). FrontEnd deployed on netlify and BacKEnd deployed on cyclic.sh . Just need to open a frontend deployment link.
 
-   - FrondEnd Deployment Link :- https://64f31d17d7589471842290ed--eclectic-youtiao-affab4.netlify.app/
+   - FrondEnd Deployment Link :- https://eclectic-youtiao-affab4.netlify.app/
 
    - BackEnd Deployment Link :- https://dark-jade-gosling-hem.cyclic.app/
 
